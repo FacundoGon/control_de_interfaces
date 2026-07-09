@@ -2,14 +2,15 @@ NOTA: A medida que se realizan las bitácoras deberán ser subidas al repo corre
 
 # BITÁCORA DE PROYECTO – ROBOT SUMO
 
-## Equipo: _______________________________
-## Nombre del Robot: ______________________
-## Capitán: _______________________________
-## Subcapitán: ____________________________
+## Equipo: M3N
+## Nombre del Robot: Chappie
+## Capitán: Gonzalez Facundo
+## Subcapitán: Martinez Victoria
 ## Integrantes:
--
--
--
+- Lemos Benjamin
+- Manrique Mia
+- Klees Ian
+- Milocco Catalina
 
 ## REGISTRO DE ACTIVIDADES
 ### Fecha: 
@@ -56,22 +57,26 @@ NOTA: A medida que se realizan las bitácoras deberán ser subidas al repo corre
 -
 
 ### APORTES INDIVIDUALES
-Integrante: ____________________________
+Integrante: Gonzalez Facundo
 
 Tarea realizada:
 
-Integrante: ____________________________
+Integrante: Martinez Victoria
 
 Tarea realizada:
 
-Integrante: ____________________________
+Integrante: Milocco Catalina
 
 Tarea realizada:
 
-Integrante: ____________________________
+Integrante: Klees Ian
 
 Tarea realizada:
 
-Integrante: ____________________________
+Integrante: Manrique Mia
+
+Tarea realizada:
+
+Integrante: Lemos Benjamin
 
 Tarea realizada:
