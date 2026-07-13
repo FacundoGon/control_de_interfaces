@@ -20,22 +20,22 @@ NOTA: A medida que se realizan las bitácoras deberán ser subidas al repo corre
 - Gonzalez Facundo
 
 ### Objetivos de la jornada:
-- Terminar codigo
+- Terminar codigo de movimiento de los motores
 - Hacer que se mueva el robot
 - Empezar a armar el circuito
 - Empezar a diseñar la estructura del robot
 - Hacer pruebas del circuito
-- Buscar informacion del buscapilas
+- Buscar informacion del portapilas
 
 ### Actividades realizadas:
--
--
--
+- Se termino el codigo de movimiento de los motores
+- Se armo el circuito
+- Se diseño un boceto de la estructura del robot
+- Se busco informacion del portapilas
+- Se penso la estrategia a usar
 
 ### Problemas encontrados:
--
--
--
+- No hubo problemas
 
 ### Soluciones implementadas o propuestas:
 -
