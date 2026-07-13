@@ -16,15 +16,16 @@ NOTA: A medida que se realizan las bitácoras deberán ser subidas al repo corre
 ### Fecha: 13-7
 ### Integrantes presentes:
 - Manrique Mia
-- Martinez victoria
-- Gonzalez facundo
+- Martinez Victoria
+- Gonzalez Facundo
 
 ### Objetivos de la jornada:
-- terminar codigo
-- hacer que se mueva el robot
-- empezar a armar el circuito
-- empezar a diseñar la estructura del robot
-- hacer pruebas del circuito
+- Terminar codigo
+- Hacer que se mueva el robot
+- Empezar a armar el circuito
+- Empezar a diseñar la estructura del robot
+- Hacer pruebas del circuito
+- Buscar informacion del buscapilas
 
 ### Actividades realizadas:
 -
