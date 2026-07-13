@@ -27,38 +27,38 @@ int main(void) {
   while (true) {
         // Go Forward
         if (true){
-            gpio_put(1, 0);
-            gpio_put(2, 1);
+            gpio_put(ENA1, 0);
+            gpio_put(ENA2, 1);
 
-            gpio_put(3, 0);
-            gpio_put(4, 1);
+            gpio_put(ENA3, 0);
+            gpio_put(ENA4, 1);
         }
 
         // Turn Right
         if (false){
-            gpio_put(1, 1);
-            gpio_put(2, 0);
+            gpio_put(ENA1, 1);
+            gpio_put(ENA2, 0);
 
-            gpio_put(3, 0);
-            gpio_put(4, 1);
+            gpio_put(ENA3, 0);
+            gpio_put(ENA4, 1);
         }
 
         // Turn Left
-        if (true){
-            gpio_put(1, 0);
-            gpio_put(2, 1);
+        if (false){
+            gpio_put(ENA1, 0);
+            gpio_put(ENA2, 1);
 
-            gpio_put(3, 1);
-            gpio_put(4, 0);
+            gpio_put(ENA3, 1);
+            gpio_put(ENA4, 0);
         }
 
         // Go Backward
-        if (true){
-            gpio_put(1, 1);
-            gpio_put(2, 0);
+        if (false){
+            gpio_put(ENA1, 1);
+            gpio_put(ENA2, 0);
 
-            gpio_put(3, 1);
-            gpio_put(4, 0);
+            gpio_put(ENA3, 1);
+            gpio_put(ENA4, 0);
         }
   }
   return 0;
