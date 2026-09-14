@@ -56,6 +56,7 @@ target_include_directories(chappiecode PRIVATE
 # Add any user requested libraries
 target_link_libraries(chappiecode 
         pico_cyw43_arch_lwip_threadsafe_background
+        hardware_pwm
         )
 
 pico_add_extra_outputs(chappiecode)
