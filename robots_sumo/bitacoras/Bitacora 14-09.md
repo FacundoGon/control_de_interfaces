@@ -15,11 +15,11 @@ NOTA: A medida que se realizan las bitácoras deberán ser subidas al repo corre
 ## REGISTRO DE ACTIVIDADES
 ### Fecha: 14 de septiembre de 2026
 ### Integrantes presentes:
--Gonzalez Facundo
--Martinez Victoria
--Manrique Mia
--Milocco Catalina
--Klees Ian
+- Gonzalez Facundo
+- Martinez Victoria
+- Manrique Mia
+- Milocco Catalina
+- Klees Ian
 
 ### Objetivos de la jornada:
 - Probar el circuito en protoboard
