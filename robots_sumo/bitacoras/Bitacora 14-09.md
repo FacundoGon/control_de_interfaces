@@ -53,7 +53,7 @@ NOTA: A medida que se realizan las bitácoras deberán ser subidas al repo corre
 ### Fotografías, diagramas o evidencias: (Adjuntar imágenes, capturas de pantalla o esquemas)
 
 ### Tareas pendientes:
-- Terminar el codigo de PWM
+- Terminar el código de PWM
 - Probar el circuito en protoboard
 -
 
@@ -64,7 +64,7 @@ Tarea realizada: Armar el código de el PWM y ayudar con el circuito en protoboa
 
 Integrante: Martinez Victoria
 
-Tarea realizada: Diseño la estructura del robot en tinkerkad
+Tarea realizada: Diseño la estructura del robot en tinkerCad
 
 Integrante: Milocco Catalina
 
