@@ -22,24 +22,23 @@ NOTA: A medida que se realizan las bitácoras deberán ser subidas al repo corre
 -Klees Ian
 
 ### Objetivos de la jornada:
--Probar el circuito en protoboard
--Diseño de la estructura del robot
+- Probar el circuito en protoboard
+- Diseño de la estructura del robot
 
 
 ### Actividades realizadas:
--armar el circuito en protoboard
--investigar sobre el ENA y el ENB, y el PWM
--
+- armar el circuito en protoboard
+- investigar sobre el ENA y el ENB, y el PWM
+
 
 ### Problemas encontrados:
--no encontrar cables para el circuito
--necesidad de investigar sobre el modelado 3D para realizacion del diseño del robot
--
+- no encontrar cables para el circuito
+- necesidad de investigar sobre el modelado 3D para realizacion del diseño del robot
 
 ### Soluciones implementadas o propuestas:
--ir a buscar cables a otro taller
--ver videos informativos sobre el modelado 3D
--
+- ir a buscar cables a otro taller
+- ver videos informativos sobre el modelado 3D
+
 
 ### Pruebas realizadas:
 -
@@ -54,30 +53,30 @@ NOTA: A medida que se realizan las bitácoras deberán ser subidas al repo corre
 ### Fotografías, diagramas o evidencias: (Adjuntar imágenes, capturas de pantalla o esquemas)
 
 ### Tareas pendientes:
--terminar el codigo de PWM
--probar el circuito en protoboard
+- Terminar el codigo de PWM
+- Probar el circuito en protoboard
 -
 
 ### APORTES INDIVIDUALES
 Integrante: Gonzalez Facundo
 
-Tarea realizada:armar el codigo de el PWM y ayudar con el circuito en protoboard
+Tarea realizada: Armar el código de el PWM y ayudar con el circuito en protoboard
 
 Integrante: Martinez Victoria
 
-Tarea realizada:Diseño la estructura del robot en tinkerkad
+Tarea realizada: Diseño la estructura del robot en tinkerkad
 
 Integrante: Milocco Catalina
 
-Tarea realizada:Hacer la bitácora, Desarrollar el circuito en protoboard e investigar del PWM
+Tarea realizada: Hacer la bitácora, Desarrollar el circuito en protoboard e investigar del PWM
 
 Integrante: Klees Ian
 
-Tarea realizada:Hacer la bitácora,desarrollar el circuito en protoboard e investigar del PWM
+Tarea realizada: Hacer la bitácora, desarrollar el circuito en protoboard e investigar del PWM
 
 Integrante: Manrique Mia
 
-Tarea realizada:desarrollo del circuito en protoboard
+Tarea realizada: Desarrollo del circuito en protoboard
 
 Integrante: Lemos Benjamin
 
