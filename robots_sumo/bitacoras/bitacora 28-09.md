@@ -66,15 +66,15 @@ NOTA: A medida que se realizan las bitácoras deberán ser subidas al repo corre
 ### APORTES INDIVIDUALES
 Integrante: Gonzalez Facundo
 
-Tarea realizada: Continuó con el programa de los codigos,verificó que esten correctos y comenzó con la prueba de los códigos de los motores y de el circuito junto a Milocco.
+Tarea realizada: Continuó con el programa de los códigos,verificó que estén correctos y comenzó con la prueba de los códigos de los motores y de el circuito junto a Milocco.
 
 Integrante: Martinez Victoria
 
-Tarea realizada: Volvió a modelar en 3D el esquema del robot  (en TinkerCad),realizó la lista de tareas del dia,las distribuyo e hizo la bitácora.
+Tarea realizada: Volvió a modelar en 3D el esquema del robot  (en TinkerCad),realizó la lista de tareas del día,las distribuyo e hizo la bitácora.
 
 Integrante: Milocco Catalina
 
-Tarea realizada: Armó el circuito en la protoboard junto a Klees y probó con Gonzalez los circuitos en la fuente.
+Tarea realizada: Armó el circuito en la protoboard junto a Klees y probó con González los circuitos en la fuente.
 
 Integrante: Klees Ian
 
@@ -82,8 +82,8 @@ Tarea realizada: Armó el circuito en la protoboard junto a Milocco e hizo el di
 
 Integrante: Manrique Mia
 
-Tarea realizada: Soldó los cables del motor y armó la estrategia y características propias que deseamos para el robot.
+Tarea realizada: Fue a investigar con un profesor sobre la impresión en 3D,luego soldó los cables del motor y armó la estrategia y características propias que deseamos para el robot.
 
 Integrante: Lemos Benjamin
 
-Tarea realizada: Soldó los cables del segundo motor y gráfico la distribución interna del robot.
+Tarea realizada: Acompañó a Mía a hablar con el profe sobre la impresión 3D,soldó los cables del segundo motor y gráfico la distribución interna del robot.
