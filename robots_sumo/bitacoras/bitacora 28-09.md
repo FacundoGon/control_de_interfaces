@@ -15,75 +15,75 @@ NOTA: A medida que se realizan las bitácoras deberán ser subidas al repo corre
 ## REGISTRO DE ACTIVIDADES
 ### Fecha: 
 ### Integrantes presentes:
--Klees Ian
--Manrique Mia
--Milocco Catalina
--Gonzalez Facundo
--Martinez Victoria
--Lemos Benjamin
+- Klees Ian
+- Manrique Mia
+- Milocco Catalina
+- Gonzalez Facundo
+- Martinez Victoria
+- Lemos Benjamin
 
 ### Objetivos de la jornada:
--Armar el circuito para probar los motores conectandolos a la fuente
--Terminar el diseño en tinkercad
--Probar codigos
--Diseñar el orden y distribucion de elementos 
--Terminar el codigo
+- Armar el circuito para probar los motores conectandolos a la fuente
+- Terminar el diseño en tinkercad
+- Probar codigos
+- Diseñar el orden y distribución de elementos 
+- Terminar el código
 
 ### Actividades realizadas:
--Soldadura de cables
--Continuacion del diseño 3D 
--Realizacion del circuito
--Verificacion del circuito
--Grafico final del circuito 
+- Soldadura de cables
+- Continuación del diseño 3D 
+- Realización del circuito
+- Verificación del circuito
+- Gráfico final del circuito 
 
 ### Problemas encontrados:
--Pequeños errores en el codigo al declarar variables
+- Pequeños errores en el código al declarar variables
 -
 -
 
 ### Soluciones implementadas o propuestas:
--Pedir ayuda y puesta en comun en grupo,tambien invenstigacion para comprobar
+- Pedir ayuda y puesta en común en grupo,también invenstigación para comprobar
 -
 -
 
 ### Pruebas realizadas:
--Prueba del codigo
--Prueba de los motores
+- Prueba del código
+- Prueba de los motores
 -
 
 ### Resultados obtenidos:
--Buen funcionamiento
--No reaccion al codigo por alguna falla
+- Buen funcionamiento
+- No reacción al código por alguna falla
 -
 
 ### Fotografías, diagramas o evidencias: (Adjuntar imágenes, capturas de pantalla o esquemas)
 
 ### Tareas pendientes:
--Corregir el codigo de los motores
--Volver a probar el codigo
+- Corregir el código de los motores
+- Volver a probar el código
 -
 
 ### APORTES INDIVIDUALES
 Integrante: Gonzalez Facundo
 
-Tarea realizada:Continuo con el programa de los codigos,verifico que esten correctos y comenzo con la prueba de los codigos de los motores y de el circuito junto a Milocco.
+Tarea realizada: Continuó con el programa de los codigos,verificó que esten correctos y comenzó con la prueba de los códigos de los motores y de el circuito junto a Milocco.
 
 Integrante: Martinez Victoria
 
-Tarea realizada:Volvio a modelar en 3D el esquema del robot  (en TinkerCad),realizo la lista de tareas del dia,las distribuyo e hizo la bitacora.
+Tarea realizada: Volvió a modelar en 3D el esquema del robot  (en TinkerCad),realizó la lista de tareas del dia,las distribuyo e hizo la bitácora.
 
 Integrante: Milocco Catalina
 
-Tarea realizada:Armo el circuito en la protoboard junto a Klees y probo con Gonzalez los circuitos en la fuente.
+Tarea realizada: Armó el circuito en la protoboard junto a Klees y probó con Gonzalez los circuitos en la fuente.
 
 Integrante: Klees Ian
 
-Tarea realizada:Armo el circuito en la protoboard junto a Milocco e hizo el diseño final del circuito.
+Tarea realizada: Armó el circuito en la protoboard junto a Milocco e hizo el diseño final del circuito.
 
 Integrante: Manrique Mia
 
-Tarea realizada:Soldo los cables del motor y armo la estrategia y caracteristicas propias que deseamos para el robot.
+Tarea realizada: Soldó los cables del motor y armó la estrategia y características propias que deseamos para el robot.
 
 Integrante: Lemos Benjamin
 
-Tarea realizada:Soldo los cables del segundo motor y grafico la distribucion interna del robot.
+Tarea realizada: Soldó los cables del segundo motor y gráfico la distribución interna del robot.
