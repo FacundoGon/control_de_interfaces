@@ -8,7 +8,64 @@
 # Links de Modelaje 3D
 ## Tutorial de modelaje 3D en TinkerCad: https://youtu.be/h1whQ4swb-E?si=TpErBmOfd9v8LY6O
 # Investigaciones sobre PWM, ENA y ENB
-## Para controlar la velocidad de giro de los motores tenemos que quitar los jumpers y usar los pines ENA y ENB. Los conectaremos a dos salidas PWM de la Raspberry. Todos los 26 pines GPIO (del GP0 al GP25) de la Raspberry Pi Pico W son compatibles con PWM.
+
+## PWM: modulación por ancho de pulso
+
+PWM significa **Pulse Width Modulation**, o **modulación por ancho de pulso**. Es una técnica que permite regular la energía entregada a un motor mediante una señal digital que alterna rápidamente entre un nivel alto y uno bajo.
+
+En el robot, la Raspberry Pi Pico W genera la señal de control y el puente H conmuta la alimentación del motor. El motor recibe su energía de las pilas a través del puente H; los GPIO de la Raspberry no alimentan directamente los motores.
+
+### Ciclo de trabajo y frecuencia
+
+El **ciclo de trabajo**, también llamado *duty cycle*, es el porcentaje de cada período durante el cual la señal permanece en nivel alto:
+
+**D (%) = (tiempo en alto / período total) × 100**
+
+La **frecuencia** indica cuántas veces se repite el ciclo por segundo y se mide en hertz (Hz). Para regular la velocidad se puede mantener fija la frecuencia y modificar el ciclo de trabajo.
+
+![Señales PWM con distintos ciclos de trabajo](https://cdn.sparkfun.com/assets/f/9/c/8/a/512e869bce395fbc64000002.JPG)
+
+*Figura: comparación de señales con distintos ciclos de trabajo. Fuente: SparkFun Learn.*
+
+Con un ciclo de trabajo del 0 %, el canal queda deshabilitado. Al subir al 25 %, 50 % o 75 %, aumenta el tiempo durante el cual se acciona el motor. Con el 100 %, el canal permanece habilitado de forma continua.
+
+Por ejemplo, si el período dura 1 ms y la señal está en alto durante 0,25 ms, el ciclo de trabajo es del 25 % y la frecuencia es de 1000 Hz. Si se aumenta el tiempo en alto a 0,75 ms sin cambiar el período, el ciclo de trabajo pasa al 75 %.
+
+Un ciclo de trabajo mayor suele producir una velocidad mayor, pero **50 % de PWM no garantiza la mitad exacta de la velocidad**. También influyen la carga, el rozamiento, las pilas y las pérdidas del puente H. Con valores muy bajos, el motor puede no llegar a arrancar.
+
+## ENA: habilitación del canal A
+
+**ENA** significa *Enable A*. Habilita el canal A del L298N, cuyas salidas son **OUT1 y OUT2**. En esas salidas se conecta uno de los motores. Una señal PWM en ENA permite regular su accionamiento; **IN1 e IN2** seleccionan el sentido de giro.
+
+## ENB: habilitación del canal B
+
+**ENB** significa *Enable B*. Cumple la misma función para el segundo motor, conectado a **OUT3 y OUT4**. Su sentido de giro se selecciona con **IN3 e IN4**. ENA y ENB permiten controlar los dos motores por separado.
+
+En el canal A, ENA regula la habilitación, IN1 e IN2 seleccionan el sentido y OUT1 y OUT2 se conectan al motor. En el canal B se utilizan ENB, IN3 e IN4, y OUT3 y OUT4, respectivamente.
+
+Con Enable en bajo, el canal queda deshabilitado y el motor puede detenerse por inercia. Con Enable en alto y las dos entradas opuestas, gira en uno u otro sentido; con ambas entradas iguales se produce frenado eléctrico. El sentido físico depende de cómo estén conectados los cables del motor.
+
+![Conexiones de ENA, ENB y entradas de dirección en el diseño del robot](https://github.com/user-attachments/assets/17565a6b-efff-4d77-8b82-09dc2a432571)
+
+*Figura: diseño del proyecto. ENA y ENB controlan la habilitación de los canales; IN1 a IN4 determinan el sentido de giro.*
+
+## Aplicación en nuestro robot sumo
+
+En el diseño se asignan **GP6 a ENA** y **GP7 a ENB**. Los GPIO **GP1 a GP4** se utilizan para las entradas de dirección. La masa **GND de la Pico W, del puente H y de la alimentación** debe estar conectada en común para compartir la referencia de las señales.
+
+Para aplicar PWM a los Enable de un módulo L298N típico, se retiran **los jumpers de ENA y ENB**, que normalmente los mantienen habilitados. No deben confundirse con el jumper del regulador de 5 V del módulo, que cumple otra función.
+
+La Pico W dispone de 26 GPIO accesibles: **GP0 a GP22 y GP26 a GP28**. Todos admiten PWM; esto no significa que sus nombres sean GP0 a GP25. El RP2040 tiene 16 canales PWM distribuidos en ocho bloques o *slices*. GP6 y GP7 pertenecen al mismo bloque: pueden tener distintos ciclos de trabajo, aunque comparten la frecuencia, lo cual resulta útil para controlar ambos motores.
+
+Al variar los ciclos de trabajo de ENA y ENB se puede hacer que una rueda gire más rápido que la otra y lograr que el robot doble. Para avanzar, retroceder o girar sobre su eje también se combinan las entradas de dirección.
+
+## Fuentes consultadas
+
+- [Hoja de datos del L298 — STMicroelectronics](https://www.st.com/resource/en/datasheet/l298.pdf).
+- [Documentación de Raspberry Pi Pico y Pico W](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html).
+- [API de hardware y PWM del Pico SDK](https://www.raspberrypi.com/documentation/pico-sdk/hardware.html).
+- [Ilustración del ciclo de trabajo — SparkFun Learn](https://learn.sparkfun.com/tutorials/pulse-width-modulation/duty-cycle).
+
 # Proyecto: Robot sumo
 ## Diagrama esquemático del robot
 Primero se diseñó un diagrama esquemático del robot para planificar
@@ -31,13 +88,10 @@ conexiones antes de instalarlo sobre la base del robot.
 Durante esta etapa se realizaron pruebas para comprobar la respuesta
 del circuito y detectar posibles errores de conexión.
 Video del armado y la prueba en protoboard:
-
 https://github.com/user-attachments/assets/de9d0876-0a72-4d14-8cde-4501158d515c
-
 ## Armado sobre la base
 Después de realizar las pruebas en protoboard, se montaron los
 componentes sobre la base del robot y se realizaron las conexiones
 correspondientes.
 ![Armado del robot sobre la base](https://github.com/user-attachments/assets/054d971a-9bd5-43bc-bd63-7075de77f29a)
-
 ![Vista inferior del armado sobre la base](https://github.com/user-attachments/assets/391087be-62d3-46dd-99a0-27a95633a231)
