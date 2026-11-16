@@ -2,9 +2,10 @@
 ## Puente h: https://forum.arduino.cc/t/puente-h-l298n-no-funciona-como-deberia/1007524/5
 ## Raspberry pi pico w: https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html
 # Explicaciones
-## Puente H: un puente H invierte la polaridad aplicada al motor para cambiar el sentido de giro. Mediante la combinación adecuada de cuatro interruptores electrónicos, puede hacer que el motor avance, retroceda,o se detenga, y si se combina con una señal PWM, también permite controlar su velocidad. Es uno de los circuitos fundamentales en robótica, automatización y control de motores
-## Porta Pilas: un porta pilas no modifica la electricidad ni controla el circuito, unicamente proporciona una forma segura y práctica de conectar una o varias pilas a un dispositivo, asegurando el contacto eléctrico y la polaridad correcta de este 
-# imagenes 
+## Puente H
+un puente H invierte la polaridad aplicada al motor para cambiar el sentido de giro. Mediante la combinación adecuada de cuatro interruptores electrónicos, puede hacer que el motor avance, retroceda,o se detenga, y si se combina con una señal PWM, también permite controlar su velocidad. Es uno de los circuitos fundamentales en robótica, automatización y control de motores
+## Porta Pilas
+un porta pilas no modifica la electricidad ni controla el circuito, unicamente proporciona una forma segura y práctica de conectar una o varias pilas a un dispositivo, asegurando el contacto eléctrico y la polaridad correcta de este 
 # Links de Modelaje 3D
 ## Tutorial de modelaje 3D en TinkerCad: https://youtu.be/h1whQ4swb-E?si=TpErBmOfd9v8LY6O
 # Investigaciones sobre PWM, ENA y ENB
@@ -25,7 +26,7 @@ La **frecuencia** indica cuántas veces se repite el ciclo por segundo y se mide
 
 ![Señales PWM con distintos ciclos de trabajo](https://cdn.sparkfun.com/assets/f/9/c/8/a/512e869bce395fbc64000002.JPG)
 
-*Figura: comparación de señales con distintos ciclos de trabajo. Fuente: SparkFun Learn.*
+Imagen: comparación de señales con distintos ciclos de trabajo.
 
 Con un ciclo de trabajo del 0 %, el canal queda deshabilitado. Al subir al 25 %, 50 % o 75 %, aumenta el tiempo durante el cual se acciona el motor. Con el 100 %, el canal permanece habilitado de forma continua.
 
