@@ -89,9 +89,3 @@ Durante esta etapa se realizaron pruebas para comprobar la respuesta
 del circuito y detectar posibles errores de conexión.
 Video del armado y la prueba en protoboard:
 https://github.com/user-attachments/assets/de9d0876-0a72-4d14-8cde-4501158d515c
-## Armado sobre la base
-Después de realizar las pruebas en protoboard, se montaron los
-componentes sobre la base del robot y se realizaron las conexiones
-correspondientes.
-![Armado del robot sobre la base](https://github.com/user-attachments/assets/054d971a-9bd5-43bc-bd63-7075de77f29a)
-![Vista inferior del armado sobre la base](https://github.com/user-attachments/assets/391087be-62d3-46dd-99a0-27a95633a231)
