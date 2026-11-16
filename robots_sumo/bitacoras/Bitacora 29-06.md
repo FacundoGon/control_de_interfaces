@@ -72,6 +72,7 @@ Por último, planteamos la posibilidad de utilizar ruedas con diseño triangular
 
 ## Fotografías, diagramas o evidencias:
 (Adjuntar imágenes, capturas de pantalla o esquemas)
+![foto del robot](https://photos.app.goo.gl/pTsocZTRSWJQC8oY8)
 
 ## Tareas pendientes:
 - Empezar a hacer pruebas de las ideas dadas para el robot
