@@ -15,13 +15,12 @@ Primero se diseñó un diagrama esquemático del robot para planificar
 la distribución de sus partes y la relación entre los distintos
 elementos del sistema.
 ![Diagrama esquemático del robot](https://github.com/user-attachments/assets/8ff9f10b-06f5-4277-8a90-94beb9759bb1)
-## Diagrama del circuito primitivo
-Luego se realizó un primer diagrama del circuito, denominado
-circuito primitivo. Este permitió plantear las conexiones iniciales
+## Primer diseño del circuito
+Luego se realizó un primer diseño del circuito. Este permitió plantear las conexiones iniciales
 y analizar cómo se conectarían los componentes.
-![Diagrama del circuito primitivo](https://github.com/user-attachments/assets/51e2b6e2-9857-4050-864c-d38aad430201)
+![Primer diseño del circuito](https://github.com/user-attachments/assets/51e2b6e2-9857-4050-864c-d38aad430201)
 ## Diagrama del circuito pasado a limpio
-A partir del circuito primitivo, se elaboró una versión pasada
+A partir del primer diseño del circuito, se elaboró una versión pasada
 a limpio, con las conexiones organizadas para facilitar su lectura
 y utilizarla como guía durante el armado.
 ![Diagrama del circuito pasado a limpio](https://github.com/user-attachments/assets/17565a6b-efff-4d77-8b82-09dc2a432571)
@@ -33,7 +32,8 @@ Durante esta etapa se realizaron pruebas para comprobar la respuesta
 del circuito y detectar posibles errores de conexión.
 Video del armado y la prueba en protoboard:
 
-https://github.com/user-attachments/assets/a34133b0-89cf-4180-9699-37678ea8a5d0
+https://github.com/user-attachments/assets/de9d0876-0a72-4d14-8cde-4501158d515c
+
 ## Armado sobre la base
 Después de realizar las pruebas en protoboard, se montaron los
 componentes sobre la base del robot y se realizaron las conexiones
